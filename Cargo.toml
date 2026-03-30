@@ -9,7 +9,7 @@ keywords = ["zero-knowledge", "sumcheck", "category-theory", "proof-system", "pl
 categories = ["mathematics", "cryptography"]
 
 [dependencies]
-plonkish-cat = { path = "../plonkish-cat" }
+plonkish-cat = "0.1"
 sha2 = "0.10"
 
 [lints.clippy]
