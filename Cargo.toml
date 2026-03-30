@@ -1,0 +1,19 @@
+[package]
+name = "proof-cat"
+version = "0.1.0"
+edition = "2024"
+description = "Sumcheck-based proving backend for plonkish-cat circuits"
+license = "MIT"
+readme = "README.md"
+keywords = ["zero-knowledge", "sumcheck", "category-theory", "proof-system", "plonk"]
+categories = ["mathematics", "cryptography"]
+
+[dependencies]
+plonkish-cat = { path = "../plonkish-cat" }
+sha2 = "0.10"
+
+[lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = "warn"
+needless_pass_by_value = "warn"
+manual_map = "warn"
